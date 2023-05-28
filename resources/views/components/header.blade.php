@@ -78,21 +78,30 @@
                                     <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
                                         data-bs-toggle="dropdown" style="color: #000000" aria-haspopup="true"
                                         aria-expanded="false" v-pre>
+                                        <img src="{{ asset('storage/profile_pictures/' . Auth::user()->profile_picture) }}" alt="Profile Picture " class="profile-picture">
+
+
                                         {{ Auth::user()->name }}
                                     </a>
 
                                     <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                        <!-- Existing dropdown menu items -->
+
+                                        <a class="dropdown-item" href="{{ route('userprofile') }}">Profile</a>
+                                        <!-- Modified dropdown menu item -->
+
                                         <a class="dropdown-item" href="{{ route('logout') }}"
-                                            onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
+                                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
-
                                         <form id="logout-form" action="{{ route('logout') }}" method="POST"
                                             class="d-none">
                                             @csrf
                                         </form>
                                     </div>
+
+
+
                                 </li>
                             @endguest
                         </ul>
@@ -110,3 +119,12 @@
 
 
 </html>
+
+<style>
+    .profile-picture {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+</style>

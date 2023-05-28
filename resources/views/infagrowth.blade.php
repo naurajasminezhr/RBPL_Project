@@ -1,6 +1,10 @@
 @extends('components.header')
 
+<title>Infagrowth Page</title>
+
 @section('content')
+
+
 
     <body class="content">
         <p style="text-align: center; color: #000000; font-size: 30px; font-weight: bold; letter-spacing: 9.5%;">New Growth

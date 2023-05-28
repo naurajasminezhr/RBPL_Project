@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Models\GrowthData;
 use App\Http\Controllers\GrowthDataController;
+use App\Http\Controllers\UserProfileController;
+use App\Http\Controllers\ProfilePictureController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,4 +38,8 @@ Route::get('/success', function () {
 
  Route::get('/success', 'App\Http\Controllers\GrowthDataController@show')->name('success');
 
+ Route::get('/userprofile', [UserProfileController::class, 'index'])->name('userprofile');
 
+ Route::post('profilepicture/upload', [ProfilePictureController::class, 'upload'])->name('profilepicture.upload');
+
+ Route::get('/showuserprofile/{id}', [ProfilePictureController::class, 'showUserProfile'])->name('showuserprofile');
