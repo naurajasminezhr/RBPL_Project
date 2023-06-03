@@ -5,6 +5,7 @@ use App\Models\GrowthData;
 use App\Http\Controllers\GrowthDataController;
 use App\Http\Controllers\UserProfileController;
 use App\Http\Controllers\ProfilePictureController;
+use App\Http\Controllers\RentCartController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,3 +44,4 @@ Route::get('/success', function () {
  Route::post('profilepicture/upload', [ProfilePictureController::class, 'upload'])->name('profilepicture.upload');
 
  Route::get('/showuserprofile/{id}', [ProfilePictureController::class, 'showUserProfile'])->name('showuserprofile');
+ Route::get('/rentCart', [RentCartController::class, 'index'])->name('rentCart');

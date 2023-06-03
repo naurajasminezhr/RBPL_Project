@@ -1,184 +1,134 @@
 @extends('components.header')
 
-<!DOCTYPE html>
-<html>
-
-<head>
-   <title>Shopping Cart</title>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
-   <link href="RentCart.css" rel="stylesheet">
-</head>
 
 @section('content')
-<body>
+<!DOCTYPE html>
+<html lang="en">
 
-   <section>
-      <div class="container">
-         <h2>Rent Cart</h2>
-         <div class="cart">
-            <div class="col-md-12 col-lg-10 mx-auto">
-                <div class="cart-item"style="border-radius: 8px;">
-                    <div class="row justify-content-start">
-                      <div class="col-md-6">
-                        <div class="pt-1 pb-1 text-left"> <!-- Menambahkan kelas text-left untuk membuat tulisan rata kiri -->
-                          <div class="d-flex justify-content-start align-items-center"> <!-- Mengubah nilai justify-content menjadi flex-start -->
-                            <h5 class="mr-3 d-inline-block" style="margin-right: 150px;">Product</h5> <!-- Menambahkan properti margin-right -->
-                            <h5 class="mr-3 d-inline-block" style="margin-right: 60px;">Duration(Month)</h5> <!-- Menambahkan properti margin-right -->
-                            <h5 class="d-inline-block">Price</h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/cormorant-2" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/telex" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/spartan" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/lexend-deca" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
 
-               <div class="cart-item">
-                  <div class="row">
-                     <div class="col-md-7 center-item">
-                        <img src="babyw.webp" alt="">
-                        <div class="barang" style="margin-right: 40px;">
-                        <h5>Baby Walker</h5>
-                        <h6>Kalimantan Barat</h6>
-                        </div>
-                        <h5>$ <span id="phone-total">1219</span> </h5>
-                     </div>
+    <title>Our Service</title>
 
-                     <div class="col-md-5 center-item">
+    <title>Rent Cart</title>
 
-                        <div class="input-group number-spinner">
-                           <button id="phone-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
-                           <input id="phone-number" type="number" min="0" class="form-control text-center" value="1">
-                           <button id="phone-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+    <style>
 
-                        </div>
-                        </div>
+        .font-telex {
+            font-family: 'Telex', sans-serif;
+        }
 
-                        </div>
-                  </div>
+        .font-lexend {
+            font-family: 'Lexend Deca', sans-serif;
+        }
+        .font-sparta{
+            font-family: 'Spartan', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-[#FFF1C7]">
 
 
-               <div class="cart-item">
-                  <div class="row">
-                     <div class="col-md-7 center-item ">
-                        <img src="bathub.jpg" alt="">
-                        <div class="barang" style="margin-right: 40px;">
-                        <h5>Baby Walker</h5>
-                        <h6>Kalimantan Barat</h6>
-                        </div>
-                        <h5>$ <span id="case-total">59</span> </h5>
-                     </div>
-                     <div class="col-md-5 center-item">
+    <div class="mx-[165px] my-12">
+        <div class="flex flex-row gap-12">
+            <img class="" src="{{ asset('images/back.svg') }}">
+            <h1 class="text-[50px] tracking-widest font-lexend font-semibold">Rent Cart</h1>
+        </div>
+        <div class="w-full px-8 items-center text-center font-lexend grid grid-cols-5  h-14 bg-white">
+            <h1 class="col-span-2 text-left ml-4">Product</h1>
+            <h1 class="text-black/[0.4] col-span-1">Price</h1>
+            <h1 class="text-black/[0.4] col-span-1">Duration (Month)</h1>
+            <h1 class="text-black/[0.4] col-span-1">Total Price</h1>
+        </div>
+        <!-- mulai foreach -->
+        <div class="w-full px-8 mt-6 items-center relative text-center font-lexend grid grid-cols-5  h-40 bg-white">
+            <img class="col-span-1 text-left ml-4 w-28" src="{{ asset('images/img-1.png') }}">
 
-                        <div class="input-group number-spinner">
-                           <button id="case-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
-                           <input id="case-number" type="number" min="0" class="form-control text-center" value="1">
-                           <button  id="case-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
-                        </div>
-                        </div>
-                        <img src="images/remove.png" alt="" class="remove-item">
-                     </div>
-                  </div>
-
-
-               <div class="cart-item">
-                <div class="row justify-content-end">
-                  <div class="col-md-6">
-                    <div class="pt-1 pb-1">
-                      <div class="d-flex justify-content-end align-items-center"> <!-- Menggunakan flexbox untuk menempatkan elemen secara sejajar -->
-                        <h5 class="mr-3">Total: $<span id="sub-total">1,278</span></h5> <!-- Memberikan margin kanan agar ada jarak antara elemen -->
-                        <button type="button" class="btn btn-success check-out"style="color: #000;">Rent</button>
-                      </div>
-                    </div>
-                  </div>
+            <div class="col-span-1 text-left  ml-4">
+                <div class="flex flex-col">
+                    <h1 class="text-xl">Baby Walker</h1>
+                    <p class="text-[#677489]">Kalimantan Barat</p>
                 </div>
-              </div>
-
             </div>
-         </div>
-      </div>
-   </section>
-   <script src="RentCart.js"></script>
+            <h1 class="text-[#5A5A5A] col-span-1">Rp70.000</h1>
+            <div class="col-span-1">
+                <div class="flex items-center justify-center">
+                    <button id="decrementBtn" class="text-xl px-4 py-2 text-gray-400 ring-1 ring-gray-200">-</button>
+                    <span id="countDisplay" class="text-2xl px-6 py-[6px] ring-1 ring-gray-200 ">0</span>
+                    <button id="incrementBtn" class="text-xl px-4 py-2  text-gray-400 ring-1 ring-gray-200 rounded-r">+</button>
+                </div>
+            </div>
+            <h1 class="text-[#5A5A5A] col-span-1">Rp70.000</h1>
+            <a class="absolute right-8 w-10" href="">
+            <img  src="{{ asset('images/del-icon.svg') }}" alt="">
+
+            </a>
+        </div>
+        <!-- pemisah -->
+        <div class="w-full px-8 mt-6 items-center relative text-center font-lexend grid grid-cols-5  h-40 bg-white">
+            <img class="col-span-1 text-left ml-4 w-28" src="{{ asset('images/img-2.png') }}">
+            <div class="col-span-1 text-left  ml-4">
+                <div class="flex flex-col">
+                    <h1 class="text-xl">Portable Bathub</h1>
+                    <p class="text-[#677489]">Jakarta</p>
+                </div>
+            </div>
+            <h1 class="text-[#5A5A5A] col-span-1">Rp80.000</h1>
+            <div class="col-span-1">
+                <div class="flex items-center justify-center">
+                    <button id="decrementBtn" class="text-xl px-4 py-2 text-gray-400 ring-1 ring-gray-200">-</button>
+                    <span id="countDisplay" class="text-2xl px-6 py-[6px] ring-1 ring-gray-200 ">3</span>
+                    <button id="incrementBtn" class="text-xl px-4 py-2  text-gray-400 ring-1 ring-gray-200 rounded-r">+</button>
+                </div>
+            </div>
+            <h1 class="text-[#5A5A5A] col-span-1">Rp240.000</h1>
+            <a class="absolute right-8 w-10" href="">
+                <img  src="{{ asset('images/del-icon.svg') }}" alt="">
+            </a>
+        </div>
+        <!-- akhir foreach -->
+        <div class="fixed bottom-0 bg-white font-sparta w-[1200px] h-32">
+            <div class="flex flex-row mx-6 gap-4 justify-end items-center h-full">
+                <h1>Total (2 Item):</h1>
+                <h1 class="text-[#90C57E] font-bold">Rp310.000</h1>
+                <button class="bg-[#90C57E] font-semibold w-56 h-16 flex items-center justify-center">
+                    Rent
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const countDisplay = document.getElementById("countDisplay");
+        const incrementBtn = document.getElementById("incrementBtn");
+        const decrementBtn = document.getElementById("decrementBtn");
+        let count = 0;
+
+        incrementBtn.addEventListener("click", () => {
+            count++;
+            countDisplay.textContent = count;
+        });
+
+        decrementBtn.addEventListener("click", () => {
+            if (count > 0) {
+                count--;
+                countDisplay.textContent = count;
+            }
+        });
+    </script>
 </body>
-</html>
-<style>
-body{
-    background: #FFF1C7;
-    }
-  h2 {
-      font-size: 60px;
-      margin-top: 40px;
-  }
-  .barang {
-      display: flex;
-      flex-direction: column;
-      align-items: center; /* Memposisikan elemen ke tengah secara horizontal */
-      text-align: left; /* Memposisikan teks ke tengah secara horizontal */
 
-    }
-
-    .barang h5 {
-      margin-bottom: 5px; /* Memberikan ruang antara tulisan */
-    }
-
-    .barang h6 {
-      margin-top: 5px;
-      color:#5A5A5A; /* Memberikan ruang antara tulisan */
-    }
-  .cart{
-      margin: 20px 0;
-      background-color: #FFF1C7;
-      padding: 60px 0;
-  }
-  .total-price{
-      padding-bottom: 15px;
-  }
-  .cart-item{
-      background-color: #fff;
-      border-radius: 10px;
-      padding: 15px 20px;
-      margin-bottom: 20px;
-  }
-  .center-item{
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-  }
-  .cart-item img{
-      width: 115px;
-  }
-  .cart-item h5{
-      padding: 0 45px;
-  }
-  .cart-item .remove-item{
-      width: 25px!important;
-  }
-  .btn-default{
-      background-color: #fff;
-  }
-  .cart-item .form-control{
-      background-color: #F6F5FA;
-      border: none;
-      width: 65px;
-      border-radius: 10px!important;
-      font-weight: 700;
-      font-size: 20px;
-  }
-  .input-group{
-      width: unset;
-      flex-wrap: nowrap;
-  }
-  .status{
-      text-align: right;
-  }
-  .check-out{
-      float: right;
-      padding: 10px 30px;
-      font-size: 19px;
-      background-color: #90C57E;
-      border: none;
-  }
-  </style>
 @endsection
