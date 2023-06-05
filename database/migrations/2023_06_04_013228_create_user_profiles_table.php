@@ -14,17 +14,17 @@ class CreateUserProfilesTable extends Migration
     public function up()
     {
         Schema::create('user_profiles', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
             $table->string('first_name');
             $table->string('last_name');
             $table->string('email_address');
             $table->string('address');
             $table->string('contact_number');
-            $table->string('province')->nullable();
-            $table->string('city')->nullable();
-            $table->string('birthday_month')->nullable();
-            $table->unsignedInteger('birthday_day')->nullable();
-            $table->unsignedInteger('birthday_year')->nullable();
+            $table->string('province');
+            $table->string('city');
+            $table->string('birthday_month');
+            $table->unsignedBigInteger('birthday_day');
+            $table->unsignedBigInteger('birthday_year');
             $table->timestamps();
         });
     }

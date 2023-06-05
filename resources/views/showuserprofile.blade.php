@@ -93,7 +93,10 @@
                 <div id="about-header">
                     <div class="d-flex justify-content-center pt-5 mb-3">
                         <div class="profile-picture">
-                            <img src="{{ asset('storage/profile_pictures/' . $user->profile_picture) }}" alt="Profile Picture">
+                            <img src="{{ asset('storage/profile_pictures/' . Auth::user()->profile_picture) }}"
+                                alt="Profile Picture">
+
+
                         </div>
                         <i class="fa fa-pencil fa-2x position-relative" id="pencil" aria-hidden="true"></i>
                     </div>

@@ -28,17 +28,13 @@
             <form action="{{ route('profilepicture.upload') }}" method="POST" enctype="multipart/form-data" class="form">
                 @csrf
 
-                <!-- <div class="input-label">
-                                            <label>Profile Photo</label>
-                                        </div>
-                                        <input type="file" name="profile_picture" accept="image/*" required class="file-input">
 
-                                    -->
+
                 <div class="profile-picture">
                     @if (Auth::user()->profile_picture)
                         <img src="{{ asset('storage/profile_pictures/' . Auth::user()->profile_picture) }}"
                             alt="Profile Picture">
-                            <!--<p>Profile picture has been added.</p>-->
+                        <!--<p>Profile picture has been added.</p>-->
                     @else
                         <p>No profile picture added.</p>
                     @endif
@@ -47,14 +43,18 @@
                     <label for="profile_picture">Profile Photo</label>
                 </div>
                 <div class="file-input-wrapper">
-                    <input type="file" id="profile_picture" name="profile_picture" id="profilePicture" accept="image/*" required
-                        class="file-input">
+                    <input type="file" id="profile_picture" name="profile_picture" id="profilePicture" accept="image/*"
+                        required class="file-input">
                     <button type="button" class="custom-file-button" style="font-family:Lexend">Upload Photo</button>
                 </div>
 
                 <div class="file-label-wrapper">
                     <label type="text" class="custom-label">Maximum size of 1MB. JPG, GIF, or PNG.</button>
                 </div>
+            </form>
+            <form method="POST" action="{{ route('save-profile') }}" class="form">
+
+                @csrf
 
                 <div class="column">
                     <div class="input-label">
@@ -67,11 +67,11 @@
 
                 <div class="column">
                     <div class="input-column" style="font-family: Lexend">
-                        <input type="text" placeholder="Enter first name" required name="first_name" id="firstName"  />
+                        <input type="text" placeholder="Enter first name" required name="first_name" id="firstName" />
                     </div>
 
                     <div class="input-column" style="font-family: Lexend">
-                        <input type="text" placeholder="Enter last name" required name="last_name" id="lastName"/>
+                        <input type="text" placeholder="Enter last name" required name="last_name" id="lastName" />
                     </div>
                 </div>
 
@@ -82,21 +82,31 @@
 
                 <div class="input-box single" style="font-family: Lexend">
                     <input type="text" id="emailInput" placeholder="Enter email address"
-                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" required name="email_address" id="emailAddress"/>
+                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" required name="email_address"
+                        id="emailAddress" />
                     <span id="emailStatus"></span>
                 </div>
 
                 <script>
                     const emailInput = document.getElementById('emailInput');
                     const emailStatus = document.getElementById('emailStatus');
+                    const saveProfileButton = document.getElementById('saveProfileButton');
 
-                    emailInput.addEventListener('input', function() {
+                    emailInput.addEventListener('input', function(event) {
                         if (emailInput.validity.valid) {
                             emailStatus.innerHTML = '&#10004;'; // Checkmark symbol
                             emailStatus.style.color = 'green';
+                            saveProfileButton.disabled = false;
                         } else {
                             emailStatus.innerHTML = '&#9888; Enter a valid email address!'; // Exclamation mark symbol
                             emailStatus.style.color = 'red';
+                            saveProfileButton.disabled = true;
+                        }
+                    });
+
+                    saveProfileButton.addEventListener('click', function(event) {
+                        if (!emailInput.validity.valid) {
+                            event.preventDefault();
                         }
                     });
                 </script>
@@ -104,34 +114,35 @@
 
 
                 <!--
-                                        <div class="input-label">
-                                            <label>Phone Number</label>
-                                        </div>
-                                        <div class="column">
-                                            <div class="input-column ">
+                                                                <div class="input-label">
+                                                                    <label>Phone Number</label>
+                                                                </div>
+                                                                <div class="column">
+                                                                    <div class="input-column ">
 
-                                                <input type="number" placeholder="Enter phone number" required />
-                                            </div>
+                                                                        <input type="number" placeholder="Enter phone number" required />
+                                                                    </div>
 
-                                            <div class="input-column">
+                                                                    <div class="input-column">
 
-                                                <input type="date" placeholder="Enter birth date" required />
-                                            </div>
-                                        </div>
-                                    -->
+                                                                        <input type="date" placeholder="Enter birth date" required />
+                                                                    </div>
+                                                                </div>
+                                                            -->
 
                 <div class="input-label">
                     <label>Address</label>
                 </div>
                 <div class="input-box address" style="font-family: Lexend">
-                    <input type="text" placeholder="Enter street address" required name="address" id="address"/>
+                    <input type="text" placeholder="Enter street address" required name="address" id="address" />
                 </div>
 
                 <div class="input-label">
                     <label>Contact Number</label>
                 </div>
                 <div class="input-box" style="font-family: Lexend">
-                    <input type="number" placeholder="Enter phone number" required name="contact_number" id="contactNumber"/>
+                    <input type="number" placeholder="Enter phone number" required name="contact_number"
+                        id="contactNumber" />
                 </div>
 
 
@@ -296,13 +307,13 @@
                     </div>
                 </div>
                 <!--
-                                <div class="input-label">
-                                    <label>Password</label>
-                                </div>
-                                <div class="input-box" style="font-family: Lexend">
-                                    <input type="password" placeholder="Enter your password" name="password" required />
-                                </div>
-                            -->
+                                                        <div class="input-label">
+                                                            <label>Password</label>
+                                                        </div>
+                                                        <div class="input-box" style="font-family: Lexend">
+                                                            <input type="password" placeholder="Enter your password" name="password" required />
+                                                        </div>
+                                                    -->
 
                 <form action="{{ route('profile.password.verify') }}" method="POST">
                     @csrf
@@ -314,19 +325,28 @@
                             required />
                     </div>
                     <span id="passwordStatus"></span>
+
                     <div class="column">
+
                         <div class="input-box-cancel" class="cancel-button" style="font-family: Lexend">
                             <button type="cancel" class="cancel-button" style="font-size:1.3rem">Cancel</button>
                         </div>
+
+
                         <div class="input-box-save" style="font-family: Lexend;">
                             <button type="submit" class="save-button" style="font-size:1.3rem"
                                 id="saveProfileButton">Save</button>
                         </div>
 
                     </div>
+
                 </form>
 
-               <!-- <script>
+
+
+
+
+                <!-- <script>
                     var passwordInput = document.getElementById('passwordInput');
                     var passwordStatus = document.getElementById('passwordStatus');
                     var saveProfileButton = document.getElementById('saveProfileButton');
@@ -370,20 +390,8 @@
                     });
                 </script>
 
-            -->
+                                    -->
 
-
-                <!--
-
-                        <div class="column">
-                            <div class="input-box-cancel" class="cancel-button" style="font-family: Lexend">
-                                <button type="cancel" class="cancel-button" style="font-size:1.3rem">Cancel</button>
-                            </div>
-                            <div class="input-box-save" style="font-family: Lexend;">
-                                <button type="submit" class="save-button" style="font-size:1.3rem">Save</button>
-                            </div>
-                        </div>
-                    -->
             </form>
         </section>
     </body>
@@ -401,22 +409,23 @@
             box-sizing: border-box;
             font-family: "Telex", sans-serif;
         }
+
         .profile-picture {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
 
 
-}
+        }
 
-.profile-picture img {
-    width: 130px;
-    height: 130px;
-    border-radius: 100%;
-    object-fit: cover;
-    margin-left: 170%;
-    margin-top: 62px;
-}
+        .profile-picture img {
+            width: 130px;
+            height: 130px;
+            border-radius: 100%;
+            object-fit: cover;
+            margin-left: 170%;
+            margin-top: 62px;
+        }
 
         body {
             min-height: 100vh;
@@ -427,22 +436,22 @@
         }
 
         /*
-                                .file-input {
-                            height: 55px;
-                            width: 20%;
-                            color: #fff;
-                            font-size: 1rem;
-                            font-weight: 400;
-                            margin-top: 30px;
-                            border: none;
-                            cursor: pointer;
-                            transition: all 0.2s ease;
-                            background: #FF9F84;
-                            border: 1px solid #ddd;
-                            border-radius: 6px;
-                            margin-left: 30px;
-                        }
-                        */
+                                                        .file-input {
+                                                    height: 55px;
+                                                    width: 20%;
+                                                    color: #fff;
+                                                    font-size: 1rem;
+                                                    font-weight: 400;
+                                                    margin-top: 30px;
+                                                    border: none;
+                                                    cursor: pointer;
+                                                    transition: all 0.2s ease;
+                                                    background: #FF9F84;
+                                                    border: 1px solid #ddd;
+                                                    border-radius: 6px;
+                                                    margin-left: 30px;
+                                                }
+                                                */
         .file-input-wrapper {
             position: relative;
             display: inline-block;
@@ -545,6 +554,7 @@
             font-family: "Lexend", sans-serif;
 
         }
+
         .input-label-pp label {
             color: #333;
             font-weight: bold;
