@@ -41,6 +41,17 @@ class ShowUserProfileController extends Controller
         $ShowUserProfile->birthday_year = $validatedData['birthday_year'];
         $ShowUserProfile->save();
 
-        return redirect()->route('save-profile')->with('success', 'User profile saved successfully.');
+        return view('showuserprofile');
+        //return redirect()->route('/showuserprofile/{id}')->with('success', 'User profile saved successfully.');
     }
+    public function showUserData()
+    {
+        $ShowUserProfile = DB::table('user_profiles')->get(); // Retrieve growth data from the database table
+
+        //dd($ShowUserProfile); // Add this line to display the data and stop further execution
+        //return $ShowUserProfile;
+        return view('showuserprofile', compact('showUserProfile'));
+    }
+
+
 }
