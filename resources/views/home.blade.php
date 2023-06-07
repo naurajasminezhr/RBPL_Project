@@ -68,16 +68,16 @@
         <div class="row g-5">
             <!-- <div class="col-md-8"> </div> -->
             <div class="col-md-3" id="infasolution">
-                <img src="images/infasolution.png" width="160px">
+                <a href="infasolution"> <img src="images/infasolution.png" width="160px"> </a>
             </div>
             <div class="col-md-3" id="infagrowth">
-                <img src="images/infagrowth.png" width="160px">
+                <a href="infagrowth"> <img src="images/infagrowth.png" width="160px"> </a>
             </div>
             <div class="col-md-3" id="infanurse">
-                <img src="images/infanurse.png" width="160px">
+                <a href="infagrowth"> <img src="images/infanurse.png" width="160px"> </a>
             </div>
             <div class="col-md-3" id="infarent">
-                <img src="images/infarent.png" width="160px">
+                <a href="infagrowth"> <img src="images/infarent.png" width="160px"> </a>
             </div>
         </div>
     </div>

@@ -48,7 +48,7 @@
                     <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavId">
                         <ul class="nav justify-content-center  ">
 
-                            <a href="" class="btn btn-outline-dark mx-3">Sign Up</a>
+                            <a href="/register" class="btn btn-outline-dark mx-3">Sign Up</a>
                             <a href="" class="btn btn-dark mx-3">Sign In</a>
 
                         </ul>
@@ -58,8 +58,9 @@
 
             <section class="vh-100">
                 <div class="container py-5 h-100">
-                    <div class="row d-flex align-items-center justify-content-center h-100">
-                        <div class="col-md-8 col-lg-7 col-xl-6">
+                    <div class="row d-flex align-items-center justify-content-center h-100" >
+                        <img src="images/Group 1119.png" style="position: absolute;width: 1110px;height: 929px; margin-left:350px; margin-top:200px">
+                    <div class="col-md-8 col-lg-7 col-xl-6" style="position: relative;">
                             <div class="greeting">
                                 <div class="greeting-title">
                                     Sign in to <br> Infacare
@@ -74,7 +75,7 @@
 
                             <img src="images\Signinawal.png" class="img-fluid greeting-image" alt="Phone image">
                         </div>
-                        <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+                        <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1" style="position: relative">
                             <center>
                                 <h2>Sign In</h2>
                             </center>

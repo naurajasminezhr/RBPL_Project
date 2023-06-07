@@ -113,23 +113,6 @@
 
 
 
-                <!--
-                                                                            <div class="input-label">
-                                                                                <label>Phone Number</label>
-                                                                            </div>
-                                                                            <div class="column">
-                                                                                <div class="input-column ">
-
-                                                                                    <input type="number" placeholder="Enter phone number" required />
-                                                                                </div>
-
-                                                                                <div class="input-column">
-
-                                                                                    <input type="date" placeholder="Enter birth date" required />
-                                                                                </div>
-                                                                            </div>
-                                                                        -->
-
                 <div class="input-label">
                     <label>Address</label>
                 </div>
@@ -306,14 +289,6 @@
                         </div>
                     </div>
                 </div>
-                <!--
-                                                                    <div class="input-label">
-                                                                        <label>Password</label>
-                                                                    </div>
-                                                                    <div class="input-box" style="font-family: Lexend">
-                                                                        <input type="password" placeholder="Enter your password" name="password" required />
-                                                                    </div>
-                                                                -->
 
                 <!--<form action="{{ route('profile.password.verify') }}" method="POST">-->
                 <form method="POST" action="{{ route('login') }}">
