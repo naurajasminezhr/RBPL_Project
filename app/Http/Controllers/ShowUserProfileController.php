@@ -5,6 +5,14 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\ShowUserProfile;
 
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\View;
+
+use Illuminate\Support\Facades\Auth;
+use App\Models\User;
+
 class ShowUserProfileController extends Controller
 {
 
@@ -43,6 +51,8 @@ class ShowUserProfileController extends Controller
 
         return view('showuserprofile');
         //return redirect()->route('/showuserprofile/{id}')->with('success', 'User profile saved successfully.');
+
+
     }
     public function showUserData()
     {
