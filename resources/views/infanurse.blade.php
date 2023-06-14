@@ -1,67 +1,52 @@
+@extends('components.header')
+
+@section('content')
+
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-pUA-Compatible" content="ie=edge" />
-
-    <title>Nurse Review Page</title>
-
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script src="rating.js" defer></script>
-
-    <!-- Include the header component -->
 
 </head>
 
 <body>
-    @extends('components.header')
+    <div class="container">
+        <div class="rating-box">
+            <header>How Was Your Experience With This Nurse?</header>
+            <div class="Nurse">
+                <img class="" src="{{ asset('/images/ryujin.jpeg') }}" alt="Nurse Image">
+            </div>
+            <h5>Ajeng Riyustina</h5>
+            <div class="Keterangan">
+                <i class="fas fa-location-dot"></i>
+                <h3>Sidoarjo</h3>
+                <i class="far fa-star"></i>
+                <h3>New Born</h3>
+            </div>
+        </div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <h2>Click the stars to rate us!</h2>
+        <div class="rating-box1">
+            <textarea placeholder="Share your feedback"></textarea>
+        </div>
+        <div class="btn">
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+</body>
 
-
-
-    @section('content')
-
-        <body>
-            <div class="container">
-                <div class="rating-box">
-                    <header>How Was Your Experience With This Nurse?</header>
-                    <div class="Nurse">
-                        <img class="" src="{{ asset('/images\ryujin.jpeg ') }}">
-                    </div>
-                    <h5>Ajeng Riyustina</h5>
-                    <div class="Keterangan">
-                        <i class="fa-sharp fa-solid fa-location-dot"></i>
-                        <h3>Sidoarjo</h3>
-                        <i class="fa-sharp fa-regular fa-star"></i>
-                        <h3>New Born</h3>
-                    </div>
-                </div>
-                <div class="stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                </div>
-                <h2>Click the stars to rate us!</h2>
-                <div class="rating-box1">
-                    <textarea>share your feedback</textarea>
-                </div>
-                <div class="btn">
-                    <button type="submit">Submit</button>
-                </div>
-        </body>
-
-        </html>
-
-    </body>
-
-
-
-    <style>
+</html>
+    {{-- <style>
         /* Import Google font - Poppins */
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
@@ -105,15 +90,12 @@
 
         .Keterangan {
             text-align: center;
-            /* Memposisikan tulisan di tengah secara horizontal */
         }
 
         .Keterangan i,
         .Keterangan h3 {
             display: inline-block;
-            /* Mengatur elemen menjadi inline block */
             margin: 0;
-            /* Menghapus margin bawaan */
         }
 
         .Keterangan h3+i {
@@ -161,9 +143,7 @@
         .stars {
             display: flex;
             justify-content: center;
-            /* Memposisikan isi flex container di tengah secara horizontal */
             align-items: center;
-            /* Memposisikan isi flex container di tengah secara vertical */
         }
 
         .stars i {
@@ -171,7 +151,6 @@
             font-size: 50px;
             cursor: pointer;
             transition: color 0.2s ease;
-
         }
 
         .stars i.active {
@@ -179,7 +158,6 @@
         }
 
         h2 {
-
             font-size: 15px;
             color: #5A5A5A;
             font-weight: 500;
@@ -195,7 +173,6 @@
 
         .btn {
             display: block;
-
             margin: 15px auto;
             text-align: center;
             background-color: #28a745;
@@ -204,5 +181,6 @@
             border-radius: 5px;
             cursor: pointer;
         }
-    </style>
+    </style> --}}
+
 @endsection

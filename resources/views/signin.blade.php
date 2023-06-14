@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="{{ asset('resources/css/sign.css') }}">
     <div class="container">
         <!--<div class="logo">
-            <img src="{{ asset('images/logo.png') }}" alt="iSpace">
+            <img src="{{ asset('images/logo.png') }}" alt="">
         </div> -->
 
         <div class="form">

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LandingPageController;
 use App\Models\GrowthData;
 use App\Http\Controllers\GrowthDataController;
 use App\Http\Controllers\UserProfileController;
@@ -8,6 +9,8 @@ use App\Http\Controllers\ProfilePictureController;
 use App\Http\Controllers\RentCartController;
 use App\Http\Controllers\ShowUserProfileController;
 use App\Models\UserProfile;
+
+
 
 
 /*
@@ -28,8 +31,8 @@ use App\Models\UserProfile;
 Auth::routes();
 
 Auth::routes();
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-//Route::get('/login', [App\Http\Controllers\HomeController::class, 'index'])->name('login');
+Route::get('/', [App\Http\Controllers\LandingPageController::class, 'index'])->name('landing');
+// Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/infagrowth',[App\Http\Controllers\InfagrowthController::class, 'index'])->name('infagrowth');
 Route::get('/infanurse',[App\Http\Controllers\InfanurseController::class, 'index'])->name('infanurse');

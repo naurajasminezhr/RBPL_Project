@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class InfanurseController extends Controller
+class LandingPageController extends Controller
 {
     function index(){
-        return view('infanurse2');
+        return view('landingpage');
         }
 }

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('components.headerbaru')
 
 @section('content')
 
@@ -35,9 +35,9 @@
 </head>
 
     <body>
-
-        <div class="container-fluid p-0">
-            <nav class="navbar navbar-expand-sm navbar-light bg-light-brown shadow-sm">
+{{--
+        <div class="container-fluid p-0" style="height: max-content; width:100%;">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light-brown shadow-sm" style="background-color: rgb(239, 226, 218);">
                 <div class="container">
                     <img src="images\logo_infacare_header.png" class="navbar-brand py-0" alt="">
                     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
@@ -54,7 +54,7 @@
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav> --}}
 
             <section class="vh-100">
                 <div class="container py-5 h-100">
@@ -62,14 +62,14 @@
                         <img src="images/Group 1119.png" style="position: absolute;width: 1110px;height: 929px; margin-left:350px; margin-top:200px">
                     <div class="col-md-8 col-lg-7 col-xl-6" style="position: relative;">
                             <div class="greeting">
-                                <div class="greeting-title">
+                                {{-- <div class="greeting-title">
                                     Sign in to <br> Infacare
-                                </div>
+                                </div> --}}
                                 <div class="greeting-caption text-secondary">
-                                    <h5>If you dont have an account you can <div class="text-danger">
+                                    {{-- <h5>If you dont have an account you can <div class="text-danger">
                                             Register Here
                                         </div>
-                                    </h5>
+                                    </h5> --}}
                                 </div>
                             </div>
 
@@ -81,7 +81,7 @@
                             </center>
 
                             <!-- Email input -->
-                            <div class="card-header">{{ __('Login') }}</div>
+                            {{-- <div class="card-header">{{ __('Login') }}</div> --}}
 
                             <div class="card-body">
                                 <form method="POST" action="{{ route('login') }}">
@@ -115,8 +115,8 @@
                                         @enderror
                                     </div>
 
-                                    <div class="row mb-3">
-                                        <div class="col-md-6 offset-md-4">
+                                    <div class="row mb-4">
+                                        <div class="col-md-6">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" name="remember"
                                                     id="remember" {{ old('remember') ? 'checked' : '' }}>
@@ -130,8 +130,8 @@
 
                                     <!-- Submit button -->
                                     <div>
-                                        <div class="col-md-8 offset-md-4">
-                                            <button type="submit" class="btn btn-primary">
+                                        <div class="form-outline mb-4">
+                                            <button type="submit" class="btn btn-primary" style="text-align: center; height:40px; width:530px;">
                                                 {{ __('Sign In  ') }}
                                             </button>
                                             @if (Route::has('password.request'))

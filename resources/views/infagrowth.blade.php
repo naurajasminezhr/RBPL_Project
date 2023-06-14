@@ -7,7 +7,7 @@
 
 
     <body class="content">
-        <p style="text-align: center; color: #000000; font-size: 30px; font-weight: bold; letter-spacing: 9.5%;">New Growth
+        <p style="text-align: center; color: #000000; font-size: 30px; font-weight: bold; letter-spacing: 9.5%; margin-top:100px;">New Growth
         </p>
         <form method="POST" action="{{ route('save') }}" class="form">
 

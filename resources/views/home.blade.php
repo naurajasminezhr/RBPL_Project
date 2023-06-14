@@ -74,10 +74,10 @@
                 <a href="infagrowth"> <img src="images/infagrowth.png" width="160px"> </a>
             </div>
             <div class="col-md-3" id="infanurse">
-                <a href="infagrowth"> <img src="images/infanurse.png" width="160px"> </a>
+                <a href="infanurse"> <img src="images/infanurse.png" width="160px"> </a>
             </div>
             <div class="col-md-3" id="infarent">
-                <a href="infagrowth"> <img src="images/infarent.png" width="160px"> </a>
+                <a href="infarent"> <img src="images/infarent.png" width="160px"> </a>
             </div>
         </div>
     </div>

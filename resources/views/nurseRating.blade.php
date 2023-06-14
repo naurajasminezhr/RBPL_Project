@@ -1,5 +1,5 @@
+@extends('components.header')
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - codingnepalweb.com -->
 
 <head>
     <meta charset="UTF-8" />
@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    @extends('components.header')
+
 
 
 

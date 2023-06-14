@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class InfarentController extends Controller
 {
     function index(){
-        return view('infarent');
+        return view('infarent2');
         }
 }

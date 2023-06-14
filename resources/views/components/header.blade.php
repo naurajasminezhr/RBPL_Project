@@ -19,26 +19,31 @@
 </head>
 
 <body>
-    <div class="header-container">
+
+    <div class="header-container" >
         <div id="app">
-            <nav class="navbar navbar-expand-md navbar-dark shadow-sm" style="background-color: #EFE2DA">
+            <nav class="navbar navbar-expand-md navbar-dark shadow-sm" style="background-color: #EFE2DA; width: 100%; position:-webkit-sticky; position:sticky; top:0;" >
                 <div class="container">
                     {{-- <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
                 </a> --}}
-                    <a href="/home"> <img class="" src="{{ asset('/images/logo_infacare_header.png ') }}"> </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
 
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav justify-content-end me-0 my-3 my-lg-0">
-                            <li class="nav-item"><a class="nav-link me-lg-3 text-black"
-                                    href="/infasolution">Infasolution</a></li>
-                            <li class="nav-item"><a class="nav-link me-lg-3 text-black"
-                                    href="/infagrowth">Infagrowth</a>
+
+
+                <a href="/home"> <img class="" src="{{ asset('/images/logo_infacare_header.png ') }}"> </a>
+                @auth
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav justify-content-end me-0 my-3 my-lg-0">
+                    <li class="nav-item"><a class="nav-link me-lg-3 text-black"
+                        href="/infasolution">Infasolution</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3 text-black"
+                            href="/infagrowth">Infagrowth</a>
                             </li>
 
                             <li class="nav-item"><a class="nav-link me-lg-3 text-black" href="/infanurse">Infanurse</a>
@@ -49,6 +54,7 @@
                         </ul>
 
                     </div>
+                    @endauth
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <!-- Left Side Of Navbar -->
@@ -56,25 +62,35 @@
 
                         </ul>
                         <!--<form class="form-inline my-2 my-lg-0 " style="width: 449px">
-                        <input class="form-control mr-sm-2" type="search" placeholder="What lesson do you want to find? " >
-                        {{-- <i class="bi bi-search "></i> --}}
-                      </form>--!>
+                            <input class="form-control mr-sm-2" type="search" placeholder="What lesson do you want to find? " >
+                            {{-- <i class="bi bi-search "></i> --}}
+                        </form>--!>
 
-                    <!-- Right Side Of Navbar -->
+
+                        <!-- Right Side Of Navbar -->
+
+                        {{-- <li class="nav-item">
+                            <a class="nav-link border rounded border-dark text-body" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        </li> --}}
+
+                        {{-- <li class="nav-item">
+                            <a class="nav-link border rounded border-dark bg-dark text-white" style="margin-left: 10px;" href="{{ route('register') }}">{{ __('Register') }}</a>
+                        </li> --}}
                         <ul class="navbar-nav ms-auto">
                             <!-- Authentication Links -->
                             @guest
-                                @if (Route::has('login'))
+                            @if (Route::has('register'))
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                        <a class="nav-link border rounded border-dark text-body" style="height:40px; width:100px; text-align:center;" href="{{ route('register') }}">{{ __('Sign up') }}</a>
                                     </li>
                                 @endif
 
-                                @if (Route::has('register'))
+                                @if (Route::has('login'))
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                        <a class="nav-link border rounded border-dark bg-dark text-white" style="margin-left: 10px; height:40px; width:100px; text-align:center;" href="{{ route('login') }}">{{ __('Log in') }}</a>
                                     </li>
                                 @endif
+
                             @else
                                 <li class="nav-item dropdown">
                                     <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
@@ -118,10 +134,6 @@
     </div>
 </body>
 
-
-
-</html>
-
 <style>
     .profile-picture {
         width: 30px;
@@ -129,4 +141,9 @@
         border-radius: 50%;
         margin-right: 5px;
     }
+
 </style>
+
+
+</html>
+
