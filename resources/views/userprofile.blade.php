@@ -25,7 +25,7 @@
                 Edit Profile
             </p>
 
-            <form action="{{ route('profilepicture.upload') }}" method="POST" enctype="multipart/form-data" class="form">
+            <form id="form1" action="{{ route('profilepicture.upload') }}" method="POST" enctype="multipart/form-data" class="form">
                 @csrf
 
 
@@ -39,6 +39,8 @@
                         <p>No profile picture added.</p>
                     @endif
                 </div>
+
+
                 <div class="input-label-pp">
                     <label for="profile_picture">Profile Photo</label>
                 </div>
@@ -53,7 +55,7 @@
                 </div>
             </form>
 
-            <form method="POST" action="{{ route('save-profile') }}" enctype="multipart/form-data" class="form">
+            <form id="form2" method="POST" action="{{ route('save-profile') }}" enctype="multipart/form-data" class="form">
                 @csrf
 
                 <div class="column">
@@ -93,7 +95,10 @@
                     const saveProfileButton = document.getElementById('saveProfileButton');
 
                     emailInput.addEventListener('input', function(event) {
-                        if (emailInput.validity.valid) {
+                        const email = emailInput.value;
+                        const isValidEmail = email.includes('@') && email.endsWith('.com');
+
+                        if (isValidEmail) {
                             emailStatus.innerHTML = '&#10004;'; // Checkmark symbol
                             emailStatus.style.color = 'green';
                             saveProfileButton.disabled = false;
@@ -107,6 +112,7 @@
                     saveProfileButton.addEventListener('click', function(event) {
                         if (!emailInput.validity.valid) {
                             event.preventDefault();
+                            alert('Please enter a valid email address!');
                         }
                     });
                 </script>
@@ -325,8 +331,30 @@
                 </div>
 
                 </div>
+                <script>
+                    document.getElementById('saveProfileButton').addEventListener('click', function() {
+                        var activeForm = getActiveForm();
 
+                        if (activeForm) {
+                            activeForm.submit();
+                        }
+                    });
+
+                    function getActiveForm() {
+                        var form1 = document.getElementById('form1');
+                        var form2 = document.getElementById('form2');
+
+                        if (form1 && form1.action.includes('profilepicture.upload')) {
+                            return form1;
+                        } else if (form2 && form2.action.includes('save-profile')) {
+                            return form2;
+                        }
+
+                        return null;
+                    }
+                </script>
             </form>
+
 
 
 

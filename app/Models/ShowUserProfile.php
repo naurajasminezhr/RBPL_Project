@@ -9,6 +9,7 @@ class ShowUserProfile extends Model
     protected $table = 'user_profiles';
 
     protected $fillable = [
+        'profile_picture',
         'first_name',
         'last_name',
         'email_address',
