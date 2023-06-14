@@ -89,6 +89,7 @@
                     </nav>-->
 
         <section class="vh-100">
+
             <div class="container-fluid bg-light-pink" id="bg-light-pink">
                 <div id="about-header">
                     <div class="d-flex justify-content-center pt-5 mb-3">
@@ -123,7 +124,7 @@
                                     Name
                                 </div>
                                 <div class="col-lg-8" style="font-family:Lexend; opacity: 90%; margin-bottom: 10px;">
-                                    Karina Ayu
+                                    {{ $ShowUserProfile->first_name }} {{ $ShowUserProfile->last_name }}
                                 </div>
 
                                 <div class="col-lg-1" style="margin-bottom: 10px;">
@@ -192,6 +193,9 @@
     <div class="container">
         <h1>User Profile</h1>
 
+
+
+
         <div class="profile-picture">
             @if (Auth::user()->profile_picture)
                 <img src="{{ asset('storage/profile_pictures/' . Auth::user()->profile_picture) }}" alt="Profile Picture">
@@ -200,10 +204,15 @@
             @endif
         </div>
 
+
         <!-- Display other user profile information -->
         <div class="profile-info">
             <p>Name: {{ Auth::user()->name }}</p>
             <p>Email: {{ Auth::user()->email }}</p>
+
+
+
+
             <!-- Add more profile information here -->
         </div>
     </div>

@@ -47,6 +47,13 @@ class ShowUserProfileController extends Controller
         $ShowUserProfile->birthday_month = $validatedData['birthday_month'];
         $ShowUserProfile->birthday_day = $validatedData['birthday_day'];
         $ShowUserProfile->birthday_year = $validatedData['birthday_year'];
+        if ($request->hasFile('profile_picture')) {
+            $image = $request->file('profile_picture');
+            $imageName = time()."_".$image->getClientOriginalName();
+            $image->storeAs('public/profile_pictures', $imageName);
+            $ShowUserProfile->profile_picture = $imageName;
+        }
+
         $ShowUserProfile->save();
 
         return view('showuserprofile');
@@ -54,6 +61,15 @@ class ShowUserProfileController extends Controller
 
 
     }
+
+    public function showProfile($id)
+    {
+        $ShowUserProfile = ShowUserProfile::findOrFail($id);
+
+        return view('showuserprofile', compact('ShowUserProfile'));
+    }
+
+/*
     public function showUserData()
     {
         $ShowUserProfile = DB::table('user_profiles')->get(); // Retrieve growth data from the database table
@@ -62,6 +78,6 @@ class ShowUserProfileController extends Controller
         //return $ShowUserProfile;
         return view('showuserprofile', compact('showUserProfile'));
     }
-
+*/
 
 }
