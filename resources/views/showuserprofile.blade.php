@@ -104,7 +104,7 @@
 
 
 
-                    <h1 class="text-center fw-bold" style="font-family: Nunito; opacity:90%; margin-top:110px; margin-bottom:-20px">Karina Ayu</h1>
+                    <h1 class="text-center fw-bold" style="font-family: Nunito; opacity:90%; margin-top:110px; margin-bottom:-20px">{{ $ShowUserProfile->first_name }} {{ $ShowUserProfile->last_name }}</h1>
 
                 </div>
 
@@ -137,7 +137,7 @@
                                     Email
                                 </div>
                                 <div class="col-lg-8" style="font-family:Lexend; opacity: 90%; margin-bottom: 10px;">
-                                    karinayu11@gmail.com
+                                    {{ $ShowUserProfile->email_address }}
                                 </div>
 
                                 <div class="col-lg-1" style="margin-bottom: 10px;">
@@ -148,7 +148,7 @@
                                     Phone No.
                                 </div>
                                 <div class="col-lg-8" style="font-family:Lexend; opacity: 90%; margin-bottom: 10px;">
-                                    0812345678910
+                                    {{ $ShowUserProfile->contact_number }}
                                 </div>
 
                                 <div class="col-lg-1" style="margin-bottom: 10px;">
@@ -159,7 +159,7 @@
                                     Address
                                 </div>
                                 <div class="col-lg-8" style="font-family:Lexend; opacity: 90%; margin-bottom: 10px;">
-                                    Putri Lidah Kulon, Surabaya
+                                    {{ $ShowUserProfile->address }}
                                 </div>
 
                                 <div class="col-lg-1" style="margin-bottom: 10px;">
@@ -170,7 +170,8 @@
                                     Birthday
                                 </div>
                                 <div class="col-lg-8" style="font-family:Lexend; opacity: 90%; margin-bottom: 10px;">
-                                    Malang, July 15th 1995
+
+                                    {{ $ShowUserProfile->city }}, {{ $ShowUserProfile->birthday_month }} {{ $ShowUserProfile->birthday_day }} {{ $ShowUserProfile->birthday_year }}
                                 </div>
 
 
