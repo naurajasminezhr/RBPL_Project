@@ -13,6 +13,7 @@ use App\Models\UserProfile;
 
 
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -58,10 +59,16 @@ Route::get('/success', function () {
  //Route::get('/showuserprofile', [ShowUserProfileController::class, 'showUserProfile'])->name('showuserprofile');
 
 
- //Route::post('/save', [ShowUserProfileController::class, 'store'])->name('save');
- //Route::post('/save', [App\Http\Controllers\ShowUserProfileController::class, 'store'])->name('save');
- //Route::post('/save-profile', 'App\Http\Controllers\ShowUserProfileController@store')->name('save-profile');
  Route::post('/save-profile', [ShowUserProfileController::class, 'store'])->name('save-profile');
+
+Route::get('/show-profile/{id}', [ShowUserProfileController::class, 'showProfile'])->name('show-profile');
+/*
+Route::get('/show-profile/{id}', function ($id) {
+    $ShowUserProfile = ShowUserProfile::findOrFail($id);
+    $header = view('header', compact('ShowUserProfile'));
+    return view('showuserprofile', compact('ShowUserProfile', 'header'));
+})->name('show-profile');
+*/
 
 // Route::get('/save-profile', function () {
   //  return view('showuserprofile'); // Replace 'success' with the name of your success view file if different

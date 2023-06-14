@@ -94,7 +94,7 @@
                 <div id="about-header">
                     <div class="d-flex justify-content-center pt-5 mb-3">
                         <div class="profile-picture">
-                            <img src="{{ asset('storage/profile_pictures/' . Auth::user()->profile_picture) }}"
+                            <img src="{{ asset('storage/profile_pictures/' . $ShowUserProfile->profile_picture) }}"
                                 alt="Profile Picture">
 
 
@@ -124,8 +124,10 @@
                                     Name
                                 </div>
                                 <div class="col-lg-8" style="font-family:Lexend; opacity: 90%; margin-bottom: 10px;">
+
                                     {{ $ShowUserProfile->first_name }} {{ $ShowUserProfile->last_name }}
-                                </div>
+
+                              </div>
 
                                 <div class="col-lg-1" style="margin-bottom: 10px;">
                                     <i class="fa fa-at" aria-hidden="true"></i>

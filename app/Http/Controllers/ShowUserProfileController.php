@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 
+
 class ShowUserProfileController extends Controller
 {
 
@@ -52,11 +53,16 @@ class ShowUserProfileController extends Controller
             $imageName = time()."_".$image->getClientOriginalName();
             $image->storeAs('public/profile_pictures', $imageName);
             $ShowUserProfile->profile_picture = $imageName;
+            //  $ShowUserProfile = Auth::user();
+
         }
 
         $ShowUserProfile->save();
 
-        return view('showuserprofile');
+          // Redirect to the show-profile route with the id parameter
+    return redirect()->route('show-profile', ['id' => $ShowUserProfile->id]);
+
+       // return view('showuserprofile');
         //return redirect()->route('/showuserprofile/{id}')->with('success', 'User profile saved successfully.');
 
 
@@ -68,6 +74,18 @@ class ShowUserProfileController extends Controller
 
         return view('showuserprofile', compact('ShowUserProfile'));
     }
+
+  /*  public function getUserProfilePicture()
+    {
+        if (Auth::check()) {
+            $user = Auth::user();
+            $profilePicture = $user->profile_picture;
+            return asset('storage/profile_pictures/' . $profilePicture);
+        }
+
+        return null;
+    }*/
+
 
 /*
     public function showUserData()
