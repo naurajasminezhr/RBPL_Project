@@ -49,7 +49,7 @@
                         <ul class="nav justify-content-center  ">
 
                             <a href="/register" class="btn btn-outline-dark mx-3">Sign Up</a>
-                            <a href="" class="btn btn-dark mx-3">Sign In</a>
+                            <a href="{{ route('login') }}" class="btn btn-dark mx-3">Sign In</a>
 
                         </ul>
                     </div>

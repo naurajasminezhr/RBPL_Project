@@ -29,6 +29,7 @@ Auth::routes();
 
 Auth::routes();
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::get('/login', [App\Http\Controllers\HomeController::class, 'index'])->name('login');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/infagrowth',[App\Http\Controllers\InfagrowthController::class, 'index'])->name('infagrowth');
 Route::get('/infanurse',[App\Http\Controllers\InfanurseController::class, 'index'])->name('infanurse');
@@ -58,7 +59,6 @@ Route::get('/success', function () {
  //Route::post('/save', [App\Http\Controllers\ShowUserProfileController::class, 'store'])->name('save');
  //Route::post('/save-profile', 'App\Http\Controllers\ShowUserProfileController@store')->name('save-profile');
  Route::post('/save-profile', [ShowUserProfileController::class, 'store'])->name('save-profile');
-
 
 // Route::get('/save-profile', function () {
   //  return view('showuserprofile'); // Replace 'success' with the name of your success view file if different
