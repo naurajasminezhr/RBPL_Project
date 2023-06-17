@@ -8,6 +8,7 @@ use App\Http\Controllers\UserProfileController;
 use App\Http\Controllers\ProfilePictureController;
 use App\Http\Controllers\RentCartController;
 use App\Http\Controllers\ShowUserProfileController;
+use App\Http\Controllers\HistoryController;
 use App\Models\UserProfile;
 
 
@@ -38,6 +39,8 @@ Route::get('/infagrowth',[App\Http\Controllers\InfagrowthController::class, 'ind
 Route::get('/infanurse',[App\Http\Controllers\InfanurseController::class, 'index'])->name('infanurse');
 Route::get('/infarent',[App\Http\Controllers\InfarentController::class, 'index'])->name('infarent');
 Route::get('/infasolution',[App\Http\Controllers\InfasolutionController::class, 'index'])->name('infasolution');
+
+Route::get('/rentHistory', [HistoryController::class, 'index'])->name('rentHistory');
 
 Route::post('/save', 'App\Http\Controllers\GrowthDataController@store')->name('save');
 Route::get('/success', function () {
