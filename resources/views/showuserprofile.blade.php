@@ -94,8 +94,8 @@
                 <div id="about-header">
                     <div class="d-flex justify-content-center pt-5 mb-3">
                         <div class="profile-picture">
-                            <img src="{{ asset('storage/profile_pictures/' . $ShowUserProfile->profile_picture) }}"
-                                alt="Profile Picture">
+
+                                   <img src="{{ asset('storage/profile_pictures/' . Auth::user()->profile_picture) }}" alt="Profile Picture " class="profile-picture">
 
 
                         </div>

@@ -31,6 +31,17 @@
 
     </div>
 
+    <h1>Products</h1>
+
+
+@foreach ($products as $product)
+    <h3>Name: {{ $product->name_products }}</h3>
+    <p>Location: {{ $product->location }}</p>
+    <p>Price: {{ $product->price }}</p>
+    <img src="{{ asset($product->gallery) }}" alt="Product Image">
+@endforeach
+
+
 
     <div class="card">
         <div class="card-baris-1">
