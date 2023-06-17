@@ -15,17 +15,17 @@
 
 <body>
     <div class="header" style="display: flex; flex-direction: row;align-items: center; margin-left: 30px;">
-        <p style="font-size: 96px; font-weight: 700;">Infarent</p>
+        <p style="font-size: 96px; font-weight: 700; margin-left: 50px">Infarent</p>
 
         <div class="rent">
-            <p style="align-items: center; font-size: 24px;margin-left: 30px;">Rent History</p>
+            <p style="align-items: center; font-size: 24px;margin-left: 30px; margin-top: 10px">Rent History</p>
         </div>
         <div class="keranjang" style="margin-left: 400px">
             <form action="/search" method="GET">
                 <img src="images/search.png" type="submit">
                 <input type="text" name="query" placeholder="Search" img src="" type="submit"/>
             </form>
-            <img src="images/keranjang.png" alt="" style="width: 58px; height: 58px;margin-left: 10px;">
+            <img src="images/keranjang.png" alt="" style="width: 20px; height: 20px;margin-left: 10px;">
         </div>
 
 
@@ -66,7 +66,7 @@
             </div>
             <div class="bentuk-card">
                 <img src="images/infarent2.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Infuser</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
@@ -75,7 +75,7 @@
                         </div>
                         <div class="detail-card" style="margin-top: -20px;">
                             <img src="images/iconduit.png" alt="">
-                            <p>3 Years</p>
+                            <p>40.000/month</p>
                         </div>
                     </div>
                     <img src="images/keranjang-infarent.png" alt=""
@@ -96,16 +96,16 @@
             </div>
             <div class="bentuk-card">
                 <img src="images/infarent3.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Stroller</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
                             <img src="images/icon_lokasi.png" alt="">
-                            <p>Sidoarjo</p>
+                            <p>Malang</p>
                         </div>
                         <div class="detail-card" style="margin-top: -20px;">
                             <img src="images/iconduit.png" alt="">
-                            <p>3 Years</p>
+                            <p>100.000/month</p>
                         </div>
                     </div>
                     <img src="images/keranjang-infarent.png" alt=""
@@ -125,16 +125,16 @@
 
             <div class="bentuk-card">
                 <img src="images/infarent4.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Stroller</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
                             <img src="images/icon_lokasi.png" alt="">
-                            <p>Sidoarjo</p>
+                            <p>Surabaya</p>
                         </div>
                         <div class="detail-card" style="margin-top: -20px;">
                             <img src="images/iconduit.png" alt="">
-                            <p>3 Years</p>
+                            <p>90.000/month</p>
                         </div>
                     </div>
                     <img src="images/keranjang-infarent.png" alt=""
@@ -159,16 +159,16 @@
         <div class="card-baris-2">
             <div class="bentuk-card">
                 <img src="images/infarent5.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Baby Bathtub</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
                             <img src="images/icon_lokasi.png" alt="">
-                            <p>Sidoarjo</p>
+                            <p>Kediri</p>
                         </div>
                         <div class="detail-card" style="margin-top: -20px;">
                             <img src="images/iconduit.png" alt="">
-                            <p>3 Years</p>
+                            <p>70.000/month</p>
                         </div>
                     </div>
                     <img src="images/keranjang-infarent.png" alt=""
@@ -189,16 +189,16 @@
             </div>
             <div class="bentuk-card">
                 <img src="images/infarent6.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Cribs</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
                             <img src="images/icon_lokasi.png" alt="">
-                            <p>Sidoarjo</p>
+                            <p>Malang</p>
                         </div>
                         <div class="detail-card" style="margin-top: -20px;">
                             <img src="images/iconduit.png" alt="">
-                            <p>3 Years</p>
+                            <p>110.000/month</p>
                         </div>
                     </div>
                     <img src="images/keranjang-infarent.png" alt=""
@@ -219,16 +219,16 @@
             </div>
             <div class="bentuk-card">
                 <img src="images/infarent7.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Baby Toys</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
                             <img src="images/icon_lokasi.png" alt="">
-                            <p>Sidoarjo</p>
+                            <p>Surabaya</p>
                         </div>
                         <div class="detail-card" style="margin-top: -20px;">
                             <img src="images/iconduit.png" alt="">
-                            <p>3 Years</p>
+                            <p>70.000/month</p>
                         </div>
                     </div>
                     <img src="images/keranjang-infarent.png" alt=""
@@ -249,7 +249,7 @@
             </div>
             <div class="bentuk-card">
                 <img src="images/infarent8.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Swimming Pool Pack</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
@@ -258,7 +258,377 @@
                         </div>
                         <div class="detail-card" style="margin-top: -20px;">
                             <img src="images/iconduit.png" alt="">
-                            <p>3 Years</p>
+                            <p>65.000/month</p>
+                        </div>
+                    </div>
+                    <img src="images/keranjang-infarent.png" alt=""
+                        style="width: 23px;height: 23px;width: 37px; height: 37px;margin-left: 10px;">
+
+                </div>
+                <div class="iconbintang">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_kosong.png" alt="">
+
+                </div>
+
+
+
+            </div>
+
+            </div>
+        </div>
+
+        <div class="card-baris-3">
+            <div class="bentuk-card">
+                <img src="images/infarent1.png" alt="">
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Baby Walker</p>
+                <div class="tambah-lokasi">
+                    <div class="lokasi-waktu">
+                        <div class="detail-card">
+                            <img src="images/icon_lokasi.png" alt="">
+                            <p>Kalimantan Barat</p>
+                        </div>
+                        <div class="detail-card" style="margin-top: -20px;">
+                            <img src="images/iconduit.png" alt="">
+                            <p>70.000/month</p>
+                        </div>
+                    </div>
+                    <img src="images/keranjang-infarent.png" alt=""
+                        style="width: 23px;height: 23px;width: 37px; height: 37px;margin-left: 10px;">
+
+                </div>
+                <div class="iconbintang">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_kosong.png" alt="">
+
+                </div>
+
+
+
+            </div>
+            <div class="bentuk-card">
+                <img src="images/infarent2.png" alt="">
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Infuser</p>
+                <div class="tambah-lokasi">
+                    <div class="lokasi-waktu">
+                        <div class="detail-card">
+                            <img src="images/icon_lokasi.png" alt="">
+                            <p>Sidoarjo</p>
+                        </div>
+                        <div class="detail-card" style="margin-top: -20px;">
+                            <img src="images/iconduit.png" alt="">
+                            <p>40.000/month</p>
+                        </div>
+                    </div>
+                    <img src="images/keranjang-infarent.png" alt=""
+                        style="width: 23px;height: 23px;width: 37px; height: 37px;margin-left: 10px;">
+
+                </div>
+                <div class="iconbintang">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_kosong.png" alt="">
+
+                </div>
+
+
+
+            </div>
+            <div class="bentuk-card">
+                <img src="images/infarent3.png" alt="">
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Stroller</p>
+                <div class="tambah-lokasi">
+                    <div class="lokasi-waktu">
+                        <div class="detail-card">
+                            <img src="images/icon_lokasi.png" alt="">
+                            <p>Malang</p>
+                        </div>
+                        <div class="detail-card" style="margin-top: -20px;">
+                            <img src="images/iconduit.png" alt="">
+                            <p>100.000/month</p>
+                        </div>
+                    </div>
+                    <img src="images/keranjang-infarent.png" alt=""
+                        style="width: 23px;height: 23px;width: 37px; height: 37px;margin-left: 10px;">
+
+                </div>
+                <div class="iconbintang">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_kosong.png" alt="">
+
+                </div>
+            </div>
+
+
+            <div class="bentuk-card">
+                <img src="images/infarent4.png" alt="">
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Stroller</p>
+                <div class="tambah-lokasi">
+                    <div class="lokasi-waktu">
+                        <div class="detail-card">
+                            <img src="images/icon_lokasi.png" alt="">
+                            <p>Surabaya</p>
+                        </div>
+                        <div class="detail-card" style="margin-top: -20px;">
+                            <img src="images/iconduit.png" alt="">
+                            <p>90.000/month</p>
+                        </div>
+                    </div>
+                    <img src="images/keranjang-infarent.png" alt=""
+                        style="width: 23px;height: 23px;width: 37px; height: 37px;margin-left: 10px;">
+
+                </div>
+                <div class="iconbintang">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_kosong.png" alt="">
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="card-baris-4">
+            <div class="bentuk-card">
+                <img src="images/infarent1.png" alt="">
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Baby Walker</p>
+                <div class="tambah-lokasi">
+                    <div class="lokasi-waktu">
+                        <div class="detail-card">
+                            <img src="images/icon_lokasi.png" alt="">
+                            <p>Kalimantan Barat</p>
+                        </div>
+                        <div class="detail-card" style="margin-top: -20px;">
+                            <img src="images/iconduit.png" alt="">
+                            <p>70.000/month</p>
+                        </div>
+                    </div>
+                    <img src="images/keranjang-infarent.png" alt=""
+                        style="width: 23px;height: 23px;width: 37px; height: 37px;margin-left: 10px;">
+
+                </div>
+                <div class="iconbintang">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_kosong.png" alt="">
+
+                </div>
+
+
+
+            </div>
+            <div class="bentuk-card">
+                <img src="images/infarent2.png" alt="">
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Infuser</p>
+                <div class="tambah-lokasi">
+                    <div class="lokasi-waktu">
+                        <div class="detail-card">
+                            <img src="images/icon_lokasi.png" alt="">
+                            <p>Sidoarjo</p>
+                        </div>
+                        <div class="detail-card" style="margin-top: -20px;">
+                            <img src="images/iconduit.png" alt="">
+                            <p>40.000/month</p>
+                        </div>
+                    </div>
+                    <img src="images/keranjang-infarent.png" alt=""
+                        style="width: 23px;height: 23px;width: 37px; height: 37px;margin-left: 10px;">
+
+                </div>
+                <div class="iconbintang">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_kosong.png" alt="">
+
+                </div>
+
+
+
+            </div>
+            <div class="bentuk-card">
+                <img src="images/infarent3.png" alt="">
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Stroller</p>
+                <div class="tambah-lokasi">
+                    <div class="lokasi-waktu">
+                        <div class="detail-card">
+                            <img src="images/icon_lokasi.png" alt="">
+                            <p>Malang</p>
+                        </div>
+                        <div class="detail-card" style="margin-top: -20px;">
+                            <img src="images/iconduit.png" alt="">
+                            <p>100.000/month</p>
+                        </div>
+                    </div>
+                    <img src="images/keranjang-infarent.png" alt=""
+                        style="width: 23px;height: 23px;width: 37px; height: 37px;margin-left: 10px;">
+
+                </div>
+                <div class="iconbintang">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_kosong.png" alt="">
+
+                </div>
+            </div>
+
+
+            <div class="bentuk-card">
+                <img src="images/infarent4.png" alt="">
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Stroller</p>
+                <div class="tambah-lokasi">
+                    <div class="lokasi-waktu">
+                        <div class="detail-card">
+                            <img src="images/icon_lokasi.png" alt="">
+                            <p>Surabaya</p>
+                        </div>
+                        <div class="detail-card" style="margin-top: -20px;">
+                            <img src="images/iconduit.png" alt="">
+                            <p>90.000/month</p>
+                        </div>
+                    </div>
+                    <img src="images/keranjang-infarent.png" alt=""
+                        style="width: 23px;height: 23px;width: 37px; height: 37px;margin-left: 10px;">
+
+                </div>
+                <div class="iconbintang">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_kosong.png" alt="">
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="card-baris-5">
+            <div class="bentuk-card">
+                <img src="images/infarent1.png" alt="">
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Baby Walker</p>
+                <div class="tambah-lokasi">
+                    <div class="lokasi-waktu">
+                        <div class="detail-card">
+                            <img src="images/icon_lokasi.png" alt="">
+                            <p>Kalimantan Barat</p>
+                        </div>
+                        <div class="detail-card" style="margin-top: -20px;">
+                            <img src="images/iconduit.png" alt="">
+                            <p>70.000/month</p>
+                        </div>
+                    </div>
+                    <img src="images/keranjang-infarent.png" alt=""
+                        style="width: 23px;height: 23px;width: 37px; height: 37px;margin-left: 10px;">
+
+                </div>
+                <div class="iconbintang">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_kosong.png" alt="">
+
+                </div>
+
+
+
+            </div>
+            <div class="bentuk-card">
+                <img src="images/infarent2.png" alt="">
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Infuser</p>
+                <div class="tambah-lokasi">
+                    <div class="lokasi-waktu">
+                        <div class="detail-card">
+                            <img src="images/icon_lokasi.png" alt="">
+                            <p>Sidoarjo</p>
+                        </div>
+                        <div class="detail-card" style="margin-top: -20px;">
+                            <img src="images/iconduit.png" alt="">
+                            <p>40.000/month</p>
+                        </div>
+                    </div>
+                    <img src="images/keranjang-infarent.png" alt=""
+                        style="width: 23px;height: 23px;width: 37px; height: 37px;margin-left: 10px;">
+
+                </div>
+                <div class="iconbintang">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_kosong.png" alt="">
+
+                </div>
+
+
+
+            </div>
+            <div class="bentuk-card">
+                <img src="images/infarent3.png" alt="">
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Stroller</p>
+                <div class="tambah-lokasi">
+                    <div class="lokasi-waktu">
+                        <div class="detail-card">
+                            <img src="images/icon_lokasi.png" alt="">
+                            <p>Malang</p>
+                        </div>
+                        <div class="detail-card" style="margin-top: -20px;">
+                            <img src="images/iconduit.png" alt="">
+                            <p>100.000/month</p>
+                        </div>
+                    </div>
+                    <img src="images/keranjang-infarent.png" alt=""
+                        style="width: 23px;height: 23px;width: 37px; height: 37px;margin-left: 10px;">
+
+                </div>
+                <div class="iconbintang">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_berisi.png" alt="">
+                    <img src="images/icon_bintang_kosong.png" alt="">
+
+                </div>
+            </div>
+
+
+            <div class="bentuk-card">
+                <img src="images/infarent4.png" alt="">
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Stroller</p>
+                <div class="tambah-lokasi">
+                    <div class="lokasi-waktu">
+                        <div class="detail-card">
+                            <img src="images/icon_lokasi.png" alt="">
+                            <p>Surabaya</p>
+                        </div>
+                        <div class="detail-card" style="margin-top: -20px;">
+                            <img src="images/iconduit.png" alt="">
+                            <p>90.000/month</p>
                         </div>
                     </div>
                     <img src="images/keranjang-infarent.png" alt=""
@@ -295,7 +665,8 @@ body {
 
 
 .rent {
-    background-color: white;
+    background-color:white;
+;
     width: 192px;
     height: 49px;
     border-radius: 16px;
@@ -340,6 +711,33 @@ body {
     align-items: center;
     justify-content: center;
     margin-left: 45px;
+}
+
+.card-baris-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45px;
+    margin-top: 57px;
+}
+
+.card-baris-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45px;
+    margin-top: 57px;
+}
+
+.card-baris-5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45px;
+    margin-top: 57px;
 }
 
 .bentuk-card {
