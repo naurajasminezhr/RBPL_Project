@@ -10,15 +10,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swapt">
     <title>Document</title>
 </head>
 
 <body>
     <div class="header" style="display: flex; flex-direction: row;align-items: center; margin-left: 30px;">
-        <p style="font-size: 96px; font-weight: 700;">Infarent</p>
+        <p style="font-size: 96px; font-weight: 700;font-family:'telex'">Infarent</p>
 
         <div class="rent">
-            <p style="align-items: center; font-size: 24px;margin-left: 30px;">Rent History</p>
+            <p style="align-items: center; font-size: 24px;margin-left: 30px;font-family:'telex'">Rent History</p>
         </div>
         <div class="keranjang" style="margin-left: 400px">
             <form action="/search" method="GET">
@@ -36,7 +37,7 @@
         <div class="card-baris-1">
             <div class="bentuk-card">
                 <img src="images/infarent1.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Baby Walker</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'lexend';"> Baby Walker</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
@@ -66,7 +67,7 @@
             </div>
             <div class="bentuk-card">
                 <img src="images/infarent2.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Lexend';"> Ajeng Riyustina</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
@@ -96,7 +97,7 @@
             </div>
             <div class="bentuk-card">
                 <img src="images/infarent3.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Lexend';"> Ajeng Riyustina</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
@@ -125,7 +126,7 @@
 
             <div class="bentuk-card">
                 <img src="images/infarent4.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Lexend';"> Ajeng Riyustina</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
@@ -159,7 +160,7 @@
         <div class="card-baris-2">
             <div class="bentuk-card">
                 <img src="images/infarent5.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Lexend';"> Ajeng Riyustina</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
@@ -189,7 +190,7 @@
             </div>
             <div class="bentuk-card">
                 <img src="images/infarent6.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Lexend';"> Ajeng Riyustina</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
@@ -219,7 +220,7 @@
             </div>
             <div class="bentuk-card">
                 <img src="images/infarent7.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family:'Lexend'';"> Ajeng Riyustina</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
@@ -249,7 +250,7 @@
             </div>
             <div class="bentuk-card">
                 <img src="images/infarent8.png" alt="">
-                <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                <p style="font-weight: bolder;font-size: 22px;font-family: 'Lexend';"> Ajeng Riyustina</p>
                 <div class="tambah-lokasi">
                     <div class="lokasi-waktu">
                         <div class="detail-card">
@@ -287,6 +288,13 @@
 
 </html>
 <style>
+html {
+            background-color: #FFF1C7;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
 body {
     background-color: #FFF1C7;
     justify-content: center;

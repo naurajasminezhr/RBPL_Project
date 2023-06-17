@@ -20,8 +20,8 @@
 
 
 
-    <link rel="stylesheet" type="text/css" href="home.css">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.google.com/specimen/Lexend?query=lexend">
 </head>
 
 <body>
@@ -84,7 +84,7 @@
 
     <div class="container py-4" id="review">
         <div class="col-md-6 py-2">
-            <h5 style="font-weight: bold;">Leave Us Review!</h5>
+            <h5 style="font-weight: bold; ">Leave Us Review!</h5>
         </div>
     </div>
 

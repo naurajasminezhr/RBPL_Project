@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swapt">
         <title>Document</title>
     </head>
 
@@ -17,10 +17,10 @@
 
 
         <div class="header" style="display: flex; flex-direction: row;align-items: center; margin-left: 10px;">
-            <p style="font-size: 96px; font-weight: 700;">Infanurse</p>
+            <p style="font-size: 96px; font-weight: 700;font-family:'telex';">Infanurse</p>
 
             <div class="rent">
-                <p style="align-items: center; font-size: 24px;margin-left: 30px;">Rent History</p>
+                <p style="align-items: center; font-size: 24px;margin-left: 30px;font-family:'telex';">Rent History</p>
             </div>
         </div>
 
@@ -29,7 +29,7 @@
             <div class="card-baris-1">
                 <div class="bentuk-card">
                     <img src="images/infanurse1.jpg" alt="">
-                    <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                    <p style="font-weight:600 ; font-size: 22px;font-family: 'lexend';"> Ajeng Riyustina</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
                             <div class="detail-card">
@@ -126,7 +126,7 @@
                 </div>
                 <div class="bentuk-card">
                     <img src="images/infanurse2.png" alt="">
-                    <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                    <p style="font-weight: bolder;font-size: 22px;font-family: 'lexend';"> Ajeng Riyustina</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
                             <div class="detail-card">
@@ -155,7 +155,7 @@
                 </div>
                 <div class="bentuk-card">
                     <img src="images/infanurse3.png" alt="">
-                    <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                    <p style="font-weight: bolder;font-size: 22px;font-family: 'lexend';"> Ajeng Riyustina</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
                             <div class="detail-card">
@@ -184,7 +184,7 @@
                 </div>
                 <div class="bentuk-card">
                     <img src="images/infanurse4.png" alt="">
-                    <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                    <p style="font-weight: bolder;font-size: 22px;font-family: 'lexend';"> Ajeng Riyustina</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
                             <div class="detail-card">
@@ -217,7 +217,7 @@
             <div class="card-baris-2">
                 <div class="bentuk-card">
                     <img src="images/infanurse5.png" alt="">
-                    <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                    <p style="font-weight: bolder;font-size: 22px;font-family: 'lexend';"> Ajeng Riyustina</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
                             <div class="detail-card">
@@ -246,7 +246,7 @@
                 </div>
                 <div class="bentuk-card">
                     <img src="images/infanurse6.png" alt="">
-                    <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                    <p style="font-weight: bolder;font-size: 22px;font-family: 'lexend';"> Ajeng Riyustina</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
                             <div class="detail-card">
@@ -265,7 +265,7 @@
                         <img src="images/icon_bintang_berisi.png" alt="">
                         <img src="images/icon_bintang_berisi.png" alt="">
                         <img src="images/icon_bintang_berisi.png" alt="">
-                        <img src="images/icon_bintang_berisi.png" alt="">
+                        <img src="images/icon_bintang_kosong.png" alt="">
                         <img src="images/icon_bintang_kosong.png" alt="">
 
                     </div>
@@ -275,7 +275,7 @@
                 </div>
                 <div class="bentuk-card">
                     <img src="images/infanurse7.png" alt="">
-                    <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                    <p style="font-weight: bolder;font-size: 22px;font-family: 'lexend';"> Ajeng Riyustina</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
                             <div class="detail-card">
@@ -294,7 +294,7 @@
                         <img src="images/icon_bintang_berisi.png" alt="">
                         <img src="images/icon_bintang_berisi.png" alt="">
                         <img src="images/icon_bintang_berisi.png" alt="">
-                        <img src="images/icon_bintang_berisi.png" alt="">
+                        <img src="images/icon_bintang_kosong.png" alt="">
                         <img src="images/icon_bintang_kosong.png" alt="">
 
                     </div>
@@ -303,7 +303,7 @@
                 </div>
                 <div class="bentuk-card">
                     <img src="images/infanurse8.png" alt="">
-                    <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ajeng Riyustina</p>
+                    <p style="font-weight: bolder;font-size: 22px;font-family: 'lexend';"> Ajeng Riyustina</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
                             <div class="detail-card">
@@ -516,6 +516,7 @@
 
         * {
             justify-content: center;
+            font-family: 'Lexend', sans-serif;
         }
 
         .detail-profil img {

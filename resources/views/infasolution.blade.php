@@ -20,6 +20,7 @@ integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466
 
 <link rel="stylesheet" type="text/css" href="rbpl.css">
 <link rel="stylesheet" href="fontawesome/css/all.css">
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Plus+Jakarta+Sans?query=Plus+Jakarta+Sans">
 </head>
 
 @section('content')
