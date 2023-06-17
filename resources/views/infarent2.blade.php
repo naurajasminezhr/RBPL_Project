@@ -32,8 +32,8 @@
     </div>
 
 
-    <div class="card">
-        <div class="card-baris-1">
+    <div class="card" style="background-color: #FFF1C7;">
+        <div class="card-baris-1" style="background-color:#FFF1C7;">
             <div class="bentuk-card">
                 <img src="images/infarent1.png" alt="">
                 <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Baby Walker</p>
