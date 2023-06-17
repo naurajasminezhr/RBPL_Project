@@ -27,35 +27,35 @@
     <body>
         <!--navbar-->
         <!--<nav class="navbar navbar-expand-lg fixed-top">
-                                                                                                                                                                                                    <div class="container-fluid">
-                                                                                                                                                                                                        <a class="navbar-brand" href="#"></a>
-                                                                                                                                                                                                        <img src="images\Infacare logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
-                                                                                                                                                                                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                                                                                                                                                                                                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                                                                                                                                                                                            <i class="fa fa-bars"></i>
-                                                                                                                                                                                                        </button>
+                                                                                                                                                                                                                                            <div class="container-fluid">
+                                                                                                                                                                                                                                                <a class="navbar-brand" href="#"></a>
+                                                                                                                                                                                                                                                <img src="images\Infacare logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+                                                                                                                                                                                                                                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                                                                                                                                                                                                                                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                                                                                                                                                                                                                                    <i class="fa fa-bars"></i>
+                                                                                                                                                                                                                                                </button>
 
-                                                                                                                                                                                                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" ;">
-                                                                                                                                                                                                            <ul class="navbar-nav ml-auto">
-                                                                                                                                                                                                                <li class="nav-item active">
-                                                                                                                                                                                                                    <a class="nav-link" href="#" style="color: black;">Infasolution</a>
-                                                                                                                                                                                                                </li>
-                                                                                                                                                                                                                <li class="nav-item">
-                                                                                                                                                                                                                    <a class="nav-link" href="#" style="color: black;">Infagrowth</a>
-                                                                                                                                                                                                                </li>
-                                                                                                                                                                                                                <li class="nav-item">
-                                                                                                                                                                                                                    <a class="nav-link" href="#" style="color: black;">Infanurse</a>
-                                                                                                                                                                                                                </li>
-                                                                                                                                                                                                                <li class="nav-item">
-                                                                                                                                                                                                                    <a class="nav-link" href="#" style="color: black;">Infarent</a>
-                                                                                                                                                                                                                </li>
-                                                                                                                                                                                                                <div class="d-flex">
-                                                                                                                                                                                                                    <a class="nav-link text-dark mx-2" aria-current="page" href="#">Karina Ayu</a>
-                                                                                                                                                                                                                    <img src="profile.png" class="profile-pict" alt="" style="width:40px">
-                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                            </ul>
-                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                </nav>-->
+                                                                                                                                                                                                                                                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" ;">
+                                                                                                                                                                                                                                                    <ul class="navbar-nav ml-auto">
+                                                                                                                                                                                                                                                        <li class="nav-item active">
+                                                                                                                                                                                                                                                            <a class="nav-link" href="#" style="color: black;">Infasolution</a>
+                                                                                                                                                                                                                                                        </li>
+                                                                                                                                                                                                                                                        <li class="nav-item">
+                                                                                                                                                                                                                                                            <a class="nav-link" href="#" style="color: black;">Infagrowth</a>
+                                                                                                                                                                                                                                                        </li>
+                                                                                                                                                                                                                                                        <li class="nav-item">
+                                                                                                                                                                                                                                                            <a class="nav-link" href="#" style="color: black;">Infanurse</a>
+                                                                                                                                                                                                                                                        </li>
+                                                                                                                                                                                                                                                        <li class="nav-item">
+                                                                                                                                                                                                                                                            <a class="nav-link" href="#" style="color: black;">Infarent</a>
+                                                                                                                                                                                                                                                        </li>
+                                                                                                                                                                                                                                                        <div class="d-flex">
+                                                                                                                                                                                                                                                            <a class="nav-link text-dark mx-2" aria-current="page" href="#">Karina Ayu</a>
+                                                                                                                                                                                                                                                            <img src="profile.png" class="profile-pict" alt="" style="width:40px">
+                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                    </ul>
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                        </nav>-->
 
 
         <div class="container">
@@ -991,7 +991,8 @@
                                         </a>
                                         <p class="card-text">Mengalami stunting atau gangguan gizi bakal menghambat
                                             pertumbuhan seoarang anak. Namun demikian, tidak semua anak bertubuh pendek
-                                            mengalami stunting.Dokter spesialis anak konsultan endokrinologi anak Prof. dr. Madarina Julia,
+                                            mengalami stunting.Dokter spesialis anak konsultan endokrinologi anak Prof. dr.
+                                            Madarina Julia,
                                             Sp.A(K), MPH., Ph.D. mengatakan bahwa...</p>
                                         <h7 class="card-title text-muted">24 Februari 2022</h7>
                                     </div>
@@ -1004,8 +1005,246 @@
                         </div>
                     </div>
 
+                    <div class="row justify-content-evenly py-2" id="card-container">
+                        <div class="card mb-3" style="max-width: 450px;">
+                            <div class="row g-0">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h7 class="card-title">jateng.suara.com</h7>
+                                        <a href="https://jateng.suara.com/read/2022/01/26/080000/susu-sapi-bisa-mencegah-stunting-pada-anak-ini-penjelasan-dari-ahli-gizi"
+                                            target="_blank">
+                                            <h5 class="card-subtitle mb-2 pt-3">
+                                                Susu Sapi Bisa Mencegah Stunting pada Anak, Ini Penjelasan dari Ahli Gizi
+                                            </h5>
+                                        </a>
+                                        <p class="card-text">Pencegahan kasus stunting wajib dilakukan oleh masyarakat.
+                                            Perbaikan gizi ibu hamil hingga anak-anak bisa menjadi langkah awal menekan
+                                            kasus tersebut. Guru besar Bidang Gizi Kesehatan Masyarakat sekaligus wakil
+                                            ketua Pusat Kajian
+                                            Gizi dan...</p>
+                                        <h7 class="card-title text-muted">26 Januari 2022</h7>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4 py-5" style="max-width: 200px;">
+                                    <img src="https://media.suara.com/pictures/653x366/2020/06/29/40185-anak-alergi-susu-sapi.jpg"
+                                        class="img-fluid rounded" alt=" ">
+                                </div>
+                            </div>
+                        </div>
 
 
+                        <div class="card mb-3" style="max-width: 450px;">
+                            <div class="row g-0">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h7 class="card-title">www.tanotofoundation.org</h7>
+                                        <a href="https://www.tanotofoundation.org/id/news/stunting-ancaman-bagi-masa-depan-anak-anak-indonesia/"
+                                            target="_blank">
+                                            <h5 class="card-subtitle mb-2 pt-3">
+                                                Stunting, Ancaman bagi Masa Depan Anak-anak Indonesia
+                                            </h5>
+                                        </a>
+                                        <p class="card-text">Menurut Survei Status Gizi Balita Indonesia 2019 yang
+                                            diselenggarakan oleh Kementerian Kesehatan RI, satu dari empat anak Indonesia di
+                                            bawah usia lima tahun menderita stunting. Jika dibandingkan, jumlah tersebut
+                                            setara dengan total penduduk Jakarta...
+                                        </p>
+                                        <h7 class="card-title text-muted">29 Juni 2020</h7>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 py-5" style="max-width: 200px;">
+                                    <img src="https://www.tanotofoundation.org/wp-content/uploads/2020/06/Apa-itu-Stunting.jpg"
+                                        class="img-fluid rounded" alt=" ">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card mb-3" style="max-width: 450px;">
+                            <div class="row g-0">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h7 class="card-title">www.suara.com</h7>
+                                        <a href="https://www.suara.com/health/2022/01/21/172312/agar-target-cegah-stunting-tercapai-nutrisionis-sarankan-bansos-jangan-berisi-beras-dan-minyak"
+                                            target="_blank">
+                                            <h5 class="card-subtitle mb-2 pt-3">Agar Target Cegah Stunting Tercapai,
+                                                Nutrisionis Sarankan Bansos Jangan Berisi Beras dan Minyak</h5>
+                                        </a>
+                                        <p class="card-text">Ketua Asosiasi Nutrisionis Indonesia DPP Persagi Dr. Andrianto
+                                            SH. M.Kes., mengatakan, protein hewani menjadi zat gizi terpenting untuk
+                                            mencegah stunting. Ia menyarankan agar ibu hamil harus cukup konsumsi protein
+                                            hewani, begitu pula anaknya setelah lahir...</p>
+                                        <h7 class="card-title text-muted">21 Januari 2022</h7>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 py-5" style="max-width: 200px;">
+                                    <img src="https://media.suara.com/pictures/653x366/2018/05/22/60594-anak-makan-ikan.jpg"
+                                        class="img-fluid rounded" alt=" ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-evenly py-2" id="card-container">
+                        <div class="card mb-3" style="max-width: 450px;">
+                            <div class="row g-0">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h7 class="card-title">www.suara.com</h7>
+                                        <a href="https://www.suara.com/pressrelease/2022/01/28/082009/pada-2024-pemerintah-dan-stakeholder-harus-capai-target-penurunan-stunting-hingga-14"
+                                            target="_blank">
+                                            <h5 class="card-subtitle mb-2 pt-3">
+                                                Pada 2024, Pemerintah dan Stakeholder harus Capai Target Penurunan Stunting
+                                                hingga 14%</h5>
+                                        </a>
+                                        <p class="card-text">Kasus stunting menjadi salah satu program prioritas penanganan
+                                            yang difokuskan pemerintah. Data 2019 menunjukkan, jumlah kasus stunting di
+                                            Indonesia mencapai 27,67 persen dan ditargetkan turun 14 persen pada 2024...</p>
+                                        <h7 class="card-title text-muted">28 Januari 2022</h7>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4 py-5" style="max-width: 200px;">
+                                    <img src="https://media.suara.com/pictures/653x366/2022/01/28/77301-danone-indonesia.webp"
+                                        class="img-fluid rounded" alt=" ">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card mb-3" style="max-width: 450px;">
+                            <div class="row g-0">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h7 class="card-title">berita.depok.go.id</h7>
+                                        <a href="https://berita.depok.go.id/wujudkan-zero-stunting-ibh-ungkap-beragam-program-andalan-kota-depok"
+                                            target="_blank">
+                                            <h5 class="card-subtitle mb-2 pt-3">
+                                                Wujudkan Zero Stunting, IBH Ungkap Beragam Program Andalan Kota Depok
+                                            </h5>
+                                        </a>
+                                        <p class="card-text">Wakil Wali Kota Depok, Imam Budi Hartono (IBH) mengatakan,
+                                            dari 3.693 balita stunting di Kota Depok yang tercatat di tahun 2021, 30 persen
+                                            berasal dari masyarakat miskin dan 70 persen berasal dari kalangan mampu.
+                                            Menurutnya, hal ini dapat terjadi karena banyak faktor...
+                                        </p>
+                                        <h7 class="card-title text-muted">24 Juni 2022</h7>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 py-5" style="max-width: 200px;">
+                                    <img src="https://berita.depok.go.id/storage/posts/kNSiBsgZgdVMoW2uztAKBGMrTVa7t7VsALjs7Pqj.webp"
+                                        class="img-fluid rounded" alt=" ">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card mb-3" style="max-width: 450px;">
+                            <div class="row g-0">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h7 class="card-title">www.klikdokter.com</h7>
+                                        <a href="https://www.klikdokter.com/ibu-anak/kesehatan-balita/pemahaman-keliru-jadi-akar-penyebab-stunting"
+                                            target="_blank">
+                                            <h5 class="card-subtitle mb-2 pt-3">Pemahaman Keliru Jadi Akar Penyebab
+                                                Stunting</h5>
+                                        </a>
+                                        <p class="card-text">Stunting merupakan salah satu masalah kesehatan yang
+                                            membayangi anak-anak di Indonesia. Prevalensinya, berdasarkan statistik, masih
+                                            cukup tinggi. Rata-rata satu dari tiga anak mengalami masalah tumbuh kembang
+                                            ini. Sayangnya...</p>
+                                        <h7 class="card-title text-muted">16 Juli 2021</h7>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 py-5" style="max-width: 200px;">
+                                    <img src="https://img-cdn.medkomtek.com/g1SHo4uGtnMdgbCBK4gkDRgRpZM=/730x411/smart/filters:quality(75):strip_icc():format(webp)/article/grp7vXlC6ZS4Pb3GNBqmI/original/087775600_1626320851-Stunting.jpg"
+                                        class="img-fluid rounded" alt=" ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-evenly py-2" id="card-container">
+                        <div class="card mb-3" style="max-width: 450px;">
+                            <div class="row g-0">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h7 class="card-title">www.suara.com</h7>
+                                        <a href="https://www.suara.com/news/2022/01/12/234500/turunkan-angka-stunting-di-indonesia-pemerintah-rogoh-kocek-hingga-rp-50-triliun"
+                                            target="_blank">
+                                            <h5 class="card-subtitle mb-2 pt-3">
+                                                Turunkan Angka Stunting di Indonesia, Pemerintah Rogoh Kocek Hingga Rp 50
+                                                Triliun</h5>
+                                        </a>
+                                        <p class="card-text">Menurunkan angka stunting alias anak lahir kerdil dan pendek
+                                            menjadi salah satu program kerja Presiden Joko Widodo (Jokowi). Bahkan, Jokowi
+                                            dikatakan akan menggelontorkan anggaran sekitar Rp 50 triliun
+                                            untuk program percepatan penurunan angka stunting di Indonesia...</p>
+                                        <h7 class="card-title text-muted">12 Januari 2022</h7>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4 py-5" style="max-width: 200px;">
+                                    <img src="https://media.suara.com/pictures/653x366/2021/12/14/95020-vakinasi-covid-19-untuk-anak-di-jakarta.webp"
+                                        class="img-fluid rounded" alt=" ">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card mb-3" style="max-width: 450px;">
+                            <div class="row g-0">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h7 class="card-title">www.bappenas.go.id</h7>
+                                        <a href="https://www.bappenas.go.id/index.php/berita/cegah-stunting-di-1000-hari-pertama-kehidupan-investasi-bersama-untuk-masa-depan-anak-bangsa"
+                                            target="_blank">
+                                            <h5 class="card-subtitle mb-2 pt-3">
+                                                Cegah Stunting di 1000 Hari Pertama Kehidupan, Investasi Bersama untuk Masa
+                                                Depan Anak Bangsa
+                                            </h5>
+                                        </a>
+                                        <p class="card-text">Untuk membangun pemahaman tentang strategi pemerintah dalam
+                                            menangani stunting serta peran lintas agama dalam mendukung penanganan stunting
+                                            di Indonesia, Kementerian PPN/Bappenas menyelenggarakan diskusi media
+                                            bertajuk...
+                                        </p>
+                                        <h7 class="card-title text-muted">28 Mei 2018</h7>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 py-5" style="max-width: 200px;">
+                                    <img src="https://www.bappenas.go.id/berita/cegah-stunting-di-1000-hari-pertama-kehidupan-investas.jpg"
+                                        class="img-fluid rounded" alt=" ">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card mb-3" style="max-width: 450px;">
+                            <div class="row g-0">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h7 class="card-title">ikm.unnes.ac.id</h7>
+                                        <a href="https://ikm.unnes.ac.id/kasus-stunting-masih-menjadi-tantangan-kerja-sama-semua-pihak-sangat-diperlukan/"
+                                            target="_blank">
+                                            <h5 class="card-subtitle mb-2 pt-3">Kasus Stunting Masih Menjadi Tantangan,
+                                                Kerja Sama Semua Pihak Sangat Diperlukan</h5>
+                                        </a>
+                                        <p class="card-text">Stunting merupakan kondisi gagal tumbuh pada anak balita
+                                            akibat kekurangan gizi kronis sehingga anak lebih pendek untuk usianya.
+                                            Indonesia menjadi salah satu negara dengan masalah stunting. Prevalensi stunting
+                                            di Indonesia berada pada posisi ke-115 dari 151 negara di dunia...</p>
+                                        <h7 class="card-title text-muted">4 Juli 2021</h7>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 py-5" style="max-width: 200px;">
+                                    <img src="https://ikm.unnes.ac.id/wp-content/uploads/2021/07/Screenshot-492-1021x580.png"
+                                        class="img-fluid rounded" alt=" ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
