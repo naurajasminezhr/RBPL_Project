@@ -817,14 +817,13 @@
                                     <p style="font-size: 37px; font-weight: bolder;">Profile</p>
                                     <img class="" src="{{ asset('/images\nurulayu.png ') }}">
                                     <p style="font-size: 24px; font-weight: bolder;align-items: center;margin-left: 30px;">
-                                        Nu Ayu</p>
+                                        Nurul Ayu</p>
                                     <div class="iconbintang">
                                         <img src="images/icon_bintang_berisi.png" alt="">
                                         <img src="images/icon_bintang_berisi.png" alt="">
                                         <img src="images/icon_bintang_berisi.png" alt="">
                                         <img src="images/icon_bintang_berisi.png" alt="">
                                         <img src="images/icon_bintang_kosong.png" alt="">
-
                                     </div>
                                     <div class="lokasi-sid">
                                         <div class="lokasi">
@@ -871,7 +870,6 @@
                             </div>
                         </div>
                     </div>
-
                     <img src="images/nurulayu.png" alt="">
                     <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Nurul Ayu</p>
                     <div class="tambah-lokasi">
@@ -969,7 +967,7 @@
                         </div>
                     </div>
 
-                    <img src="images/infanurse6.png" alt="">
+                    <img src="images/djkhalid.png" alt="">
                     <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Farhan Alaydrus</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
@@ -979,7 +977,7 @@
                             </div>
                             <div class="detail-card" style="margin-top: -20px;">
                                 <img src="images/icon_jam.png" alt="">
-                                <p>Child</p>
+                                <p>5 Years</p>
                             </div>
                         </div>
 
@@ -1008,7 +1006,7 @@
                                     <img src="images/kotakprofil.png" alt=""
                                         style="width: 600px;margin-bottom: -200px;">
                                     <p style="font-size: 37px; font-weight: bolder;">Profile</p>
-                                    <img src="images/infanurse2.jpg" alt="">
+                                    <img src="images/gitagutawa.png" alt="">
                                     <p
                                         style="font-size: 24px; font-weight: bolder;align-items: center;margin-left: 30px;">
                                         Dinda Puspita</p>
@@ -1066,7 +1064,7 @@
                         </div>
                     </div>
 
-                    <img src="images/infanurse7.png" alt="">
+                    <img src="images/gitagutawa.png" alt="">
                     <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Dinda Puspita</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
@@ -1162,7 +1160,7 @@
                         </div>
                     </div>
 
-                    <img src="images/infanurse8.png" alt="">
+                    <img src="images/pevita.png" alt="">
                     <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Andini Cahya</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
@@ -1261,7 +1259,7 @@
                         </div>
                     </div>
 
-                    <img src="images/infanurse5.png" alt="">
+                    <img src="images/imade.png" alt="">
                     <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> I Komang Adiwiyata</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
@@ -1358,7 +1356,7 @@
                         </div>
                     </div>
 
-                    <img src="images/infanurse6.png" alt="">
+                    <img src="images/siwon.png" alt="">
                     <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Sukijan</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
@@ -1455,7 +1453,7 @@
                         </div>
                     </div>
 
-                    <img src="images/infanurse7.png" alt="">
+                    <img src="images/dadario.png" alt="">
                     <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Siti Aminah</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
@@ -1551,7 +1549,7 @@
                         </div>
                     </div>
 
-                    <img src="images/infanurse8.png" alt="">
+                    <img src="images/islan.png" alt="">
                     <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Mustika Ratu</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
@@ -1650,7 +1648,7 @@
                         </div>
                     </div>
 
-                    <img src="images/infanurse5.png" alt="">
+                    <img src="images/bogum.png" alt="">
                     <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Rudi Tabuti</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
@@ -1747,7 +1745,7 @@
                         </div>
                     </div>
 
-                    <img src="images/infanurse6.png" alt="">
+                    <img src="images/andina.png" alt="">
                     <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Sandi Presetyo</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
@@ -1844,7 +1842,7 @@
                         </div>
                     </div>
 
-                    <img src="images/infanurse7.png" alt="">
+                    <img src="images/hye.png" alt="">
                     <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Dina Juwita</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
@@ -1940,7 +1938,7 @@
                         </div>
                     </div>
 
-                    <img src="images/infanurse8.png" alt="">
+                    <img src="images/prince.png" alt="">
                     <p style="font-weight: bolder;font-size: 22px;font-family: 'Poppins';"> Ali Badriah</p>
                     <div class="tambah-lokasi">
                         <div class="lokasi-waktu">
